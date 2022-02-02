@@ -9,8 +9,9 @@ from feedgen.feed import FeedGenerator
 from lxml.etree import CDATA
 
 MD_HEAD = """## 移民吧！- immi8.com
-All about immigrant，
-[网址](http://immi8.com)
+All about immigrant.
+
+[移民吧](http://immi8.com)
 [Rss](https://raw.githubusercontent.com/{repo_name}/master/feed.xml)
 """
 
