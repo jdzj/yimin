@@ -8,9 +8,10 @@ from github import Github
 from feedgen.feed import FeedGenerator
 from lxml.etree import CDATA
 
-MD_HEAD = """## Gitblog
-My personal blog using issues and GitHub Actions (随意转载，无需署名)
-[RSS Feed](https://raw.githubusercontent.com/{repo_name}/master/feed.xml)
+MD_HEAD = """## 移民吧！- immi8.com
+All about immigrant，
+[网址](http://immi8.com)
+[Rss](https://raw.githubusercontent.com/{repo_name}/master/feed.xml)
 """
 
 BACKUP_DIR = "BACKUP"
@@ -161,7 +162,7 @@ def add_md_firends(repo, md, me):
                     print(str(e))
                     pass
     with open(md, "a+", encoding="utf-8") as md:
-        md.write("## 友情链接\n")
+        md.write("## 移民官网\n")
         md.write(s)
 
 
