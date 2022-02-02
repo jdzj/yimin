@@ -1,10 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/jdzj/immi</id><title>RSS feed of jdzj's immi</title><updated>2022-02-02T13:32:26.899293+00:00</updated><author><name>jdzj</name><email>topy@vip.qq.com</email></author><link href="https://github.com/jdzj/immi"/><link href="https://raw.githubusercontent.com/jdzj/immi/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/jdzj/immi/issues/2</id><title>移民官网</title><updated>2022-02-02T13:32:27.050557+00:00</updated><content type="html"><![CDATA[<p>本Issues收集各国的移民官网。
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/jdzj/immi</id><title>RSS feed of jdzj's immi</title><updated>2022-02-02T23:14:03.002483+00:00</updated><author><name>jdzj</name><email>topy@vip.qq.com</email></author><link href="https://github.com/jdzj/immi"/><link href="https://raw.githubusercontent.com/jdzj/immi/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/jdzj/immi/issues/3</id><title>疫情对移民的影响</title><updated>2022-02-02T23:14:03.396701+00:00</updated><content type="html"><![CDATA[<p><img src="https://user-images.githubusercontent.com/2352309/152253060-e7144dc2-1f49-4ca8-8749-c8ee19ee6bcf.png" alt="image" /></p>
+<p>中国移民局办事小程序有如上提示。</p>
+]]></content><link href="https://github.com/jdzj/immi/issues/3" rel="alternate"/><category term="亚洲移民"/><published>2022-02-02T23:11:35+00:00</published></entry><entry><id>https://github.com/jdzj/immi/issues/2</id><title>移民官网</title><updated>2022-02-02T23:14:03.531643+00:00</updated><content type="html"><![CDATA[<p>本Issues收集各国的移民官网。
 各种政策始终是官网的最准确。
 ————————————————
 名字：xxxxxx
 链接：xxxxxx
 描述：xxxxxx</p>
-]]></content><link href="https://github.com/jdzj/immi/issues/2" rel="alternate"/><category term="Friends"/><published>2022-02-02T13:17:42+00:00</published></entry><entry><id>https://github.com/jdzj/immi/issues/1</id><title>About immigrant</title><updated>2022-02-02T13:32:27.136921+00:00</updated><content type="html"><![CDATA[<p>想移民的人不少，因此想收集关于全球各国移民的政策消息。
+]]></content><link href="https://github.com/jdzj/immi/issues/2" rel="alternate"/><category term="Friends"/><published>2022-02-02T13:17:42+00:00</published></entry><entry><id>https://github.com/jdzj/immi/issues/1</id><title>About immigrant</title><updated>2022-02-02T23:14:03.668848+00:00</updated><content type="html"><![CDATA[<p>想移民的人不少，因此想收集关于全球各国移民的政策消息。
 欢迎大家贡献力量，谢谢！</p>
 ]]></content><link href="https://github.com/jdzj/immi/issues/1" rel="alternate"/><published>2022-02-02T12:29:45+00:00</published></entry></feed>
