@@ -11,7 +11,7 @@ from marko.ext.gfm import gfm as marko
 
 MD_HEAD = """## 移民新闻网
 移民新闻网(ymxww.com)主要分享关于移民的政策，信息，供有需要的人了解。
-我们提倡大家帮助大家，欢迎并感谢您提供有价值的内容，直接发布在[issues](https://github.com/jdzj/ymxww.com/issues) 即可。
+我们提倡大家帮助大家，欢迎并感谢您提供有价值的内容，直接发布在[issues](https://github.com/jdzj/ymxww.com/issues)即可。
 [RSS Feed](https://raw.githubusercontent.com/{repo_name}/master/feed.xml)
 """
 
