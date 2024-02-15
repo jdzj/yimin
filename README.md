@@ -58,6 +58,11 @@
 <td><a href="http://www.ukba.homeoffice.gov.uk/">ukba</a></td>
 <td>英国移民局官网</td>
 </tr>
+<tr>
+<td>新加坡移民局</td>
+<td><a href="http://www.ica.gov.sg/">ica</a></td>
+<td>新加坡移民局官网</td>
+</tr>
 </tbody>
 </table>
 
