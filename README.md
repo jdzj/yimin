@@ -1,4 +1,4 @@
-## Gitblog
+## 移民新闻网
 移民新闻网主要分享关于移民的政策，信息，为方便有需要的进行了解。
 欢迎大家共同提供有价值的内容，发布在 issues 即可。
 [RSS Feed](https://raw.githubusercontent.com/jdzj/immi/master/feed.xml)
