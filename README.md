@@ -43,6 +43,11 @@
 <td><a href="http://www.bamf.de/">bamf</a></td>
 <td>德国移民局官网</td>
 </tr>
+<tr>
+<td>马拉西亚移民局</td>
+<td><a href="http://www.imi.gov.my/">imi</a></td>
+<td>马拉西亚移民局官网</td>
+</tr>
 </tbody>
 </table>
 
