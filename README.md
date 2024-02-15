@@ -20,7 +20,7 @@
 </tr>
 <tr>
 <td>日本移民局</td>
-<td><a href="https://www.moj.go.jp/">xxxxxx</a></td>
+<td><a href="https://www.moj.go.jp/">法务省</a></td>
 <td>日本移民局官网</td>
 </tr>
 </tbody>
