@@ -35,8 +35,13 @@
 </tr>
 <tr>
 <td>西班牙移民局</td>
-<td><a href="www.exteriores.gob.es">exteriores</a></td>
+<td><a href="https://www.exteriores.gob.es">exteriores</a></td>
 <td>西班牙移民局官网</td>
+</tr>
+<tr>
+<td>德国移民局</td>
+<td><a href="http://www.bamf.de/">bamf</a></td>
+<td>德国移民局官网</td>
 </tr>
 </tbody>
 </table>
