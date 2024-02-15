@@ -9,11 +9,9 @@ from github import Github
 from lxml.etree import CDATA
 from marko.ext.gfm import gfm as marko
 
-MD_HEAD = """## 移民新闻网 - ymxww.com
-All about immigrant.
-
-[移民新闻网](http://ymxww.com)
-[Rss](https://raw.githubusercontent.com/{repo_name}/master/feed.xml)
+MD_HEAD = """## Gitblog
+My personal blog using issues and GitHub Actions (随意转载，无需署名)
+[RSS Feed](https://raw.githubusercontent.com/{repo_name}/master/feed.xml)
 """
 
 BACKUP_DIR = "BACKUP"
@@ -26,9 +24,9 @@ IGNORE_LABELS = FRIENDS_LABELS + TOP_ISSUES_LABELS + TODO_ISSUES_LABELS
 FRIENDS_TABLE_HEAD = "| Name | Link | Desc | \n | ---- | ---- | ---- |\n"
 FRIENDS_TABLE_TEMPLATE = "| {name} | {link} | {desc} |\n"
 FRIENDS_INFO_DICT = {
-    "名字": "移民新闻网",
-    "链接": " ymxww.com",
-    "描述": " 移民信息",
+    "名字": "",
+    "链接": "",
+    "描述": "",
 }
 
 
@@ -318,9 +316,6 @@ if __name__ == "__main__":
     parser.add_argument("repo_name", help="repo_name")
     parser.add_argument(
         "--issue_number", help="issue_number", default=None, required=False
-    )
-    options = parser.parse_args()
-    main(options.github_token, options.repo_name, options.issue_number)
     )
     options = parser.parse_args()
     main(options.github_token, options.repo_name, options.issue_number)
