@@ -48,6 +48,11 @@
 <td><a href="http://www.imi.gov.my/">imi</a></td>
 <td>马拉西亚移民局官网</td>
 </tr>
+<tr>
+<td>丹麦移民局</td>
+<td><a href="http://www.nyidanmark.dk/">yidanmark</a></td>
+<td>丹麦移民局官网</td>
+</tr>
 </tbody>
 </table>
 
