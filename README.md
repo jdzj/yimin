@@ -63,6 +63,11 @@
 <td><a href="http://www.ica.gov.sg/">ica</a></td>
 <td>新加坡移民局官网</td>
 </tr>
+<tr>
+<td>新西兰移民局</td>
+<td><a href="http://www.immigration.govt.nz/branch/chinahomepage/">immigration</a></td>
+<td>新西兰移民局官网</td>
+</tr>
 </tbody>
 </table>
 
