@@ -1,5 +1,5 @@
 ## Gitblog
-My personal blog using issues and GitHub Actions (随意转载，无需署名)
+收集分享移民相关资讯 (随意转载，无需署名)
 [RSS Feed](https://raw.githubusercontent.com/jdzj/immi/master/feed.xml)
 
 ## [友情链接](https://github.com/jdzj/gitblog/issues/2)
