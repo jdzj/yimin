@@ -73,6 +73,11 @@
 <td><a href="http://www.migrationsverket.se/">migrationsverket</a></td>
 <td>瑞典移民局官网</td>
 </tr>
+<tr>
+<td>法国移民局</td>
+<td><a href="http://www.ambafrance-cn.org/">ambafrance</a></td>
+<td>法国移民局官网</td>
+</tr>
 </tbody>
 </table>
 
