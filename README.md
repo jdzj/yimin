@@ -68,6 +68,11 @@
 <td><a href="http://www.immigration.govt.nz/branch/chinahomepage/">immigration</a></td>
 <td>新西兰移民局官网</td>
 </tr>
+<tr>
+<td>瑞典移民局</td>
+<td><a href="http://www.migrationsverket.se/">migrationsverket</a></td>
+<td>瑞典移民局官网</td>
+</tr>
 </tbody>
 </table>
 
