@@ -42,16 +42,17 @@
 </table>
 
 ## 最近更新
+- [西班牙购房移民条件、流程及优势解读](https://github.com/jdzj/ymxww.com/issues/12)--2024-02-15
 - [在日本的外国工人人数突破200万大关](https://github.com/jdzj/ymxww.com/issues/11)--2024-02-15
 - [西班牙1月租金价格继续飙涨1.8%，创历史新高](https://github.com/jdzj/ymxww.com/issues/10)--2024-02-15
 - [EE全类别最新邀请, 教你如何破局高分EE](https://github.com/jdzj/ymxww.com/issues/9)--2024-02-15
 - [为什么那么多人想移民美国？](https://github.com/jdzj/ymxww.com/issues/8)--2024-02-15
-- [2024移民加拿大还能开挂吗？](https://github.com/jdzj/ymxww.com/issues/7)--2024-02-15
 ## 亚洲移民
 - [在日本的外国工人人数突破200万大关](https://github.com/jdzj/ymxww.com/issues/11)--2024-02-15
 - [移民日本的经历](https://github.com/jdzj/ymxww.com/issues/6)--2022-05-12
 - [疫情对移民的影响](https://github.com/jdzj/ymxww.com/issues/3)--2022-02-02
 ## 欧洲移民
+- [西班牙购房移民条件、流程及优势解读](https://github.com/jdzj/ymxww.com/issues/12)--2024-02-15
 - [西班牙1月租金价格继续飙涨1.8%，创历史新高](https://github.com/jdzj/ymxww.com/issues/10)--2024-02-15
 ## 美洲移民
 - [EE全类别最新邀请, 教你如何破局高分EE](https://github.com/jdzj/ymxww.com/issues/9)--2024-02-15
