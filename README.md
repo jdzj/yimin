@@ -1,5 +1,6 @@
-## 移民新闻网！- ymxww.com
+## 移民新闻网- ymxww.com
 All about immigrant.
+关于移民的信息，政策、变动、案例等。欢迎在 Issues 分享。
 
 [移民吧](http://ymxww.com)
 [Rss](https://raw.githubusercontent.com/jdzj/immi/master/feed.xml)
