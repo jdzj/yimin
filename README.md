@@ -25,8 +25,13 @@
 </tr>
 <tr>
 <td>美国移民局</td>
-<td><a href="www.uscis.gov">uscis</a></td>
+<td><a href="https://www.uscis.gov">uscis</a></td>
 <td>美国移民局官网</td>
+</tr>
+<tr>
+<td>加拿大移民局</td>
+<td><a href="https://www.cic.gc.ca">cic</a></td>
+<td>加拿大移民局官网</td>
 </tr>
 </tbody>
 </table>
