@@ -15,13 +15,18 @@
 <tbody>
 <tr>
 <td>澳洲移民局</td>
-<td>https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect/invitation-rounds</td>
+<td><a href="https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect/invitation-rounds">homeaffairs</a></td>
 <td>澳大利亚</td>
 </tr>
 <tr>
 <td>日本移民局</td>
 <td><a href="https://www.moj.go.jp/">法务省</a></td>
 <td>日本移民局官网</td>
+</tr>
+<tr>
+<td>美国移民局</td>
+<td><a href="www.uscis.gov">uscis</a></td>
+<td>美国移民局官网</td>
 </tr>
 </tbody>
 </table>
