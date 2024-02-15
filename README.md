@@ -1,7 +1,7 @@
-## 移民吧！- immi8.com
+## 移民新闻网！- ymxww.com
 All about immigrant.
 
-[移民吧](http://immi8.com)
+[移民吧](http://ymxww.com)
 [Rss](https://raw.githubusercontent.com/jdzj/immi/master/feed.xml)
 ## 移民官网
 | Name | Link | Desc | 
