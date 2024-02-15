@@ -33,6 +33,11 @@
 <td><a href="https://www.cic.gc.ca">cic</a></td>
 <td>加拿大移民局官网</td>
 </tr>
+<tr>
+<td>西班牙移民局</td>
+<td><a href="www.exteriores.gob.es">exteriores</a></td>
+<td>西班牙移民局官网</td>
+</tr>
 </tbody>
 </table>
 
