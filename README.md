@@ -53,6 +53,11 @@
 <td><a href="http://www.nyidanmark.dk/">yidanmark</a></td>
 <td>丹麦移民局官网</td>
 </tr>
+<tr>
+<td>英国移民局</td>
+<td><a href="http://www.ukba.homeoffice.gov.uk/">ukba</a></td>
+<td>英国移民局官网</td>
+</tr>
 </tbody>
 </table>
 
