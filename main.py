@@ -3,15 +3,16 @@ import argparse
 import os
 import re
 
-from marko.ext.gfm import gfm as marko
-from github import Github
+import markdown
 from feedgen.feed import FeedGenerator
+from github import Github
 from lxml.etree import CDATA
+from marko.ext.gfm import gfm as marko
 
-MD_HEAD = """## 移民吧！- immi8.com
+MD_HEAD = """## 移民新闻网 - ymxww.com
 All about immigrant.
 
-[移民吧](http://immi8.com)
+[移民新闻网](http://ymxww.com)
 [Rss](https://raw.githubusercontent.com/{repo_name}/master/feed.xml)
 """
 
@@ -154,17 +155,24 @@ def add_md_top(repo, md, me):
 def add_md_firends(repo, md, me):
     s = FRIENDS_TABLE_HEAD
     friends_issues = list(repo.get_issues(labels=FRIENDS_LABELS))
+    if not FRIENDS_LABELS or not friends_issues:
+        return
+    friends_issue_number = friends_issues[0].number
     for issue in friends_issues:
         for comment in issue.get_comments():
             if is_hearted_by_me(comment, me):
                 try:
-                    s += _make_friend_table_string(comment.body)
+                    s += _make_friend_table_string(comment.body or "")
                 except Exception as e:
                     print(str(e))
                     pass
+    s = markdown.markdown(s, output_format="html", extensions=["extra"])
     with open(md, "a+", encoding="utf-8") as md:
-        md.write("## 移民官网\n")
+        md.write(
+            f"## [友情链接](https://github.com/{str(me)}/gitblog/issues/{friends_issue_number})\n"
+        )
         md.write(s)
+        md.write("\n\n")
 
 
 def add_md_recent(repo, md, me, limit=5):
@@ -179,20 +187,33 @@ def add_md_recent(repo, md, me, limit=5):
                     count += 1
                     if count >= limit:
                         break
-        except:
-            return
+        except Exception as e:
+            print(str(e))
 
 
 def add_md_header(md, repo_name):
     with open(md, "w", encoding="utf-8") as md:
         md.write(MD_HEAD.format(repo_name=repo_name))
+        md.write("\n")
 
 
 def add_md_label(repo, md, me):
     labels = get_repo_labels(repo)
+
+    # sort lables by description info if it exists, otherwise sort by name,
+    # for example, we can let the description start with a number (1#Java, 2#Docker, 3#K8s, etc.)
+    labels = sorted(
+        labels,
+        key=lambda x: (
+            x.description is None,
+            x.description == "",
+            x.description,
+            x.name,
+        ),
+    )
+
     with open(md, "a+", encoding="utf-8") as md:
         for label in labels:
-
             # we don't need add top label again
             if label.name in IGNORE_LABELS:
                 continue
@@ -277,16 +298,16 @@ def main(token, repo_name, issue_number=None, dir_name=BACKUP_DIR):
 
 def save_issue(issue, me, dir_name=BACKUP_DIR):
     md_name = os.path.join(
-        dir_name, f"{issue.number}_{issue.title.replace(' ', '.')}.md"
+        dir_name, f"{issue.number}_{issue.title.replace('/', '-').replace(' ', '.')}.md"
     )
     with open(md_name, "w") as f:
         f.write(f"# [{issue.title}]({issue.html_url})\n\n")
-        f.write(issue.body)
+        f.write(issue.body or "")
         if issue.comments:
             for c in issue.get_comments():
                 if is_me(c, me):
                     f.write("\n\n---\n\n")
-                    f.write(c.body)
+                    f.write(c.body or "")
 
 
 if __name__ == "__main__":
@@ -297,6 +318,9 @@ if __name__ == "__main__":
     parser.add_argument("repo_name", help="repo_name")
     parser.add_argument(
         "--issue_number", help="issue_number", default=None, required=False
+    )
+    options = parser.parse_args()
+    main(options.github_token, options.repo_name, options.issue_number)
     )
     options = parser.parse_args()
     main(options.github_token, options.repo_name, options.issue_number)
