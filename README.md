@@ -18,6 +18,11 @@
 <td>https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect/invitation-rounds</td>
 <td>澳大利亚</td>
 </tr>
+<tr>
+<td>日本移民局</td>
+<td><a href="https://www.moj.go.jp/">xxxxxx</a></td>
+<td>日本移民局官网</td>
+</tr>
 </tbody>
 </table>
 
